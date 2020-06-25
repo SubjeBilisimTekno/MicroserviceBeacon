@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>IdentityService.Host</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>IdentityServiceHost20200625145700</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

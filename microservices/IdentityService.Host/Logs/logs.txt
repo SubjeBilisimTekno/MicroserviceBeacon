@@ -22368,3 +22368,456 @@ RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified end
 2020-06-25 10:46:33.078 +03:00 [DBG] Added 0 entity changes to the current audit log
 2020-06-25 10:46:33.078 +03:00 [DBG] Added 0 entity changes to the current audit log
 2020-06-25 10:46:33.078 +03:00 [INF] Request finished in 572.228ms 200 application/json; charset=utf-8
+2020-06-25 11:19:15.401 +00:00 [INF] Starting IdentityService.Host.
+2020-06-25 11:20:41.724 +00:00 [INF] Starting IdentityService.Host.
+2020-06-25 14:40:22.372 +03:00 [INF] Starting IdentityService.Host.
+2020-06-25 14:45:57.076 +03:00 [INF] Starting IdentityService.Host.
+2020-06-25 14:46:00.277 +03:00 [INF] Loaded ABP modules:
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-06-25 14:46:00.278 +03:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-06-25 14:46:00.279 +03:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-06-25 14:46:00.279 +03:00 [INF] - IdentityService.Host.IdentityServiceHostModule
+2020-06-25 14:46:01.054 +03:00 [INF] Initialized all ABP modules.
+2020-06-25 14:46:01.093 +03:00 [INF] Now listening on: http://localhost:63568
+2020-06-25 14:46:01.094 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-25 14:46:01.094 +03:00 [INF] Hosting environment: Development
+2020-06-25 14:46:01.094 +03:00 [INF] Content root path: D:\subject\MicroserviceBeacon\microservices\IdentityService.Host
+2020-06-25 14:46:02.893 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2020-06-25 14:46:02.960 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:06.693 +03:00 [INF] Executing endpoint 'IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)'
+2020-06-25 14:46:06.762 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller IdentityService.Host.Controllers.HomeController (IdentityService.Host).
+2020-06-25 14:46:06.782 +03:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-06-25 14:46:06.786 +03:00 [INF] Executed action IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host) in 20.5949ms
+2020-06-25 14:46:06.788 +03:00 [INF] Executed endpoint 'IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)'
+2020-06-25 14:46:07.755 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:07.755 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:07.776 +03:00 [INF] Request finished in 4885.6967ms 302 
+2020-06-25 14:46:07.793 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger  
+2020-06-25 14:46:07.795 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:07.798 +03:00 [INF] Request finished in 4.7207ms 301 
+2020-06-25 14:46:07.800 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/index.html  
+2020-06-25 14:46:07.803 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:07.832 +03:00 [INF] Request finished in 32.1811ms 200 text/html;charset=utf-8
+2020-06-25 14:46:07.845 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui.css  
+2020-06-25 14:46:07.846 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js  
+2020-06-25 14:46:07.847 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js  
+2020-06-25 14:46:07.847 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:07.847 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:07.847 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:07.885 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-25 14:46:07.885 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-25 14:46:07.885 +03:00 [INF] Request finished in 38.9279ms 200 application/javascript
+2020-06-25 14:46:07.886 +03:00 [INF] Request finished in 40.5397ms 200 text/css
+2020-06-25 14:46:07.893 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-25 14:46:07.894 +03:00 [INF] Request finished in 48.1783ms 200 application/javascript
+2020-06-25 14:46:08.044 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 14:46:08.044 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:08.462 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:08.462 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:08.463 +03:00 [INF] Request finished in 418.6833ms 404 
+2020-06-25 14:46:08.466 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 14:46:08.467 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:08.881 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:08.881 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:08.882 +03:00 [INF] Request finished in 415.0801ms 404 
+2020-06-25 14:46:08.964 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 14:46:08.965 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:09.378 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:09.378 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:09.378 +03:00 [INF] Request finished in 413.9509ms 404 
+2020-06-25 14:46:09.381 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 14:46:09.381 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:09.816 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:09.816 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:46:09.817 +03:00 [INF] Request finished in 435.8502ms 404 
+2020-06-25 14:46:09.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/v1/swagger.json  
+2020-06-25 14:46:09.880 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:46:10.071 +03:00 [INF] Request finished in 192.899ms 200 application/json;charset=utf-8
+2020-06-25 14:50:12.452 +03:00 [INF] Starting IdentityService.Host.
+2020-06-25 14:50:15.092 +03:00 [INF] Loaded ABP modules:
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-06-25 14:50:15.092 +03:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-06-25 14:50:15.093 +03:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-06-25 14:50:15.093 +03:00 [INF] - IdentityService.Host.IdentityServiceHostModule
+2020-06-25 14:50:15.648 +03:00 [INF] Initialized all ABP modules.
+2020-06-25 14:50:15.673 +03:00 [INF] Now listening on: http://localhost:63568
+2020-06-25 14:50:15.674 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-25 14:50:15.674 +03:00 [INF] Hosting environment: Development
+2020-06-25 14:50:15.674 +03:00 [INF] Content root path: D:\subject\MicroserviceBeacon\microservices\IdentityService.Host
+2020-06-25 14:50:17.504 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2020-06-25 14:50:17.566 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:18.063 +03:00 [INF] Executing endpoint 'IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)'
+2020-06-25 14:50:18.118 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller IdentityService.Host.Controllers.HomeController (IdentityService.Host).
+2020-06-25 14:50:18.143 +03:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-06-25 14:50:18.148 +03:00 [INF] Executed action IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host) in 25.5355ms
+2020-06-25 14:50:18.149 +03:00 [INF] Executed endpoint 'IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)'
+2020-06-25 14:50:20.581 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:20.582 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:20.603 +03:00 [INF] Request finished in 3100.072ms 302 
+2020-06-25 14:50:20.616 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger  
+2020-06-25 14:50:20.618 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:20.621 +03:00 [INF] Request finished in 4.7367ms 301 
+2020-06-25 14:50:20.624 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/index.html  
+2020-06-25 14:50:20.626 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:20.653 +03:00 [INF] Request finished in 28.984ms 200 text/html;charset=utf-8
+2020-06-25 14:50:20.671 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui.css  
+2020-06-25 14:50:20.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js  
+2020-06-25 14:50:20.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js  
+2020-06-25 14:50:20.673 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:20.673 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:20.673 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:20.705 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-25 14:50:20.705 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-25 14:50:20.705 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-25 14:50:20.706 +03:00 [INF] Request finished in 33.1205ms 200 application/javascript
+2020-06-25 14:50:20.706 +03:00 [INF] Request finished in 34.3897ms 200 text/css
+2020-06-25 14:50:20.706 +03:00 [INF] Request finished in 33.7713ms 200 application/javascript
+2020-06-25 14:50:20.829 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 14:50:20.830 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:21.555 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:21.555 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:21.556 +03:00 [INF] Request finished in 726.7698ms 404 
+2020-06-25 14:50:21.559 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 14:50:21.560 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:21.996 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:21.996 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:21.996 +03:00 [INF] Request finished in 437.3117ms 404 
+2020-06-25 14:50:22.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 14:50:22.079 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:22.499 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:22.499 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:22.500 +03:00 [INF] Request finished in 422.5558ms 404 
+2020-06-25 14:50:22.506 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 14:50:22.507 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:22.941 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:22.941 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:50:22.943 +03:00 [INF] Request finished in 436.3738ms 404 
+2020-06-25 14:50:23.015 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/v1/swagger.json  
+2020-06-25 14:50:23.018 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:50:23.195 +03:00 [INF] Request finished in 179.7558ms 200 application/json;charset=utf-8
+2020-06-25 14:51:45.295 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/api/abp/api-definition  
+2020-06-25 14:51:45.322 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:51:45.324 +03:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2020-06-25 14:51:45.336 +03:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2020-06-25 14:51:45.375 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2020-06-25 14:51:45.379 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2020-06-25 14:51:45.383 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByIdAsyncById
+2020-06-25 14:51:45.384 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByUserNameAsyncByUserName
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.SearchAsyncByInput
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.GetCountAsyncByInput
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: Profile.ChangePasswordAsyncByInput
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2020-06-25 14:51:45.385 +03:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2020-06-25 14:51:45.389 +03:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2020-06-25 14:51:45.418 +03:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 81.0317ms
+2020-06-25 14:51:45.418 +03:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2020-06-25 14:51:45.961 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:51:45.962 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:51:45.962 +03:00 [INF] Request finished in 667.3229ms 200 application/json; charset=utf-8
+2020-06-25 14:51:59.715 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/index.html  
+2020-06-25 14:51:59.716 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:51:59.719 +03:00 [INF] Request finished in 4.3588ms 200 text/html;charset=utf-8
+2020-06-25 14:51:59.740 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js  
+2020-06-25 14:51:59.740 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js  
+2020-06-25 14:51:59.742 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui.css  
+2020-06-25 14:51:59.743 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:51:59.743 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:51:59.743 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:51:59.770 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-25 14:51:59.784 +03:00 [INF] Request finished in 41.4709ms 200 text/css
+2020-06-25 14:51:59.784 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-25 14:51:59.785 +03:00 [INF] Request finished in 44.7908ms 200 application/javascript
+2020-06-25 14:51:59.794 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-25 14:51:59.794 +03:00 [INF] Request finished in 54.1851ms 200 application/javascript
+2020-06-25 14:51:59.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 14:51:59.879 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:52:00.286 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:00.286 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:00.286 +03:00 [INF] Request finished in 407.89ms 404 
+2020-06-25 14:52:00.292 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 14:52:00.292 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:52:00.725 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:00.725 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:00.725 +03:00 [INF] Request finished in 433.3778ms 404 
+2020-06-25 14:52:00.813 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 14:52:00.814 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:52:01.234 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:01.234 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:01.234 +03:00 [INF] Request finished in 420.8141ms 404 
+2020-06-25 14:52:01.239 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 14:52:01.239 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:52:01.663 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:01.663 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 14:52:01.663 +03:00 [INF] Request finished in 424.2492ms 404 
+2020-06-25 14:52:01.723 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/v1/swagger.json  
+2020-06-25 14:52:01.724 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:52:01.730 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/favicon-32x32.png  
+2020-06-25 14:52:01.731 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 14:52:01.734 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-06-25 14:52:01.735 +03:00 [INF] Request finished in 4.0684ms 200 image/png
+2020-06-25 14:52:01.756 +03:00 [INF] Request finished in 33.0022ms 200 application/json;charset=utf-8
+2020-06-25 12:14:50.959 +00:00 [INF] Starting IdentityService.Host.
+2020-06-25 12:15:47.324 +00:00 [INF] Starting IdentityService.Host.
+2020-06-25 15:20:59.912 +03:00 [INF] Starting IdentityService.Host.
+2020-06-25 15:21:05.483 +03:00 [INF] Loaded ABP modules:
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-06-25 15:21:05.485 +03:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-06-25 15:21:05.485 +03:00 [INF] - IdentityService.Host.IdentityServiceHostModule
+2020-06-25 15:21:06.046 +03:00 [INF] Initialized all ABP modules.
+2020-06-25 15:21:06.073 +03:00 [INF] Now listening on: http://localhost:63568
+2020-06-25 15:21:06.075 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-25 15:21:06.075 +03:00 [INF] Hosting environment: Development
+2020-06-25 15:21:06.075 +03:00 [INF] Content root path: D:\subject\MicroserviceBeacon\microservices\IdentityService.Host
+2020-06-25 15:21:07.992 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2020-06-25 15:21:08.054 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:11.731 +03:00 [INF] Executing endpoint 'IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)'
+2020-06-25 15:21:11.790 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller IdentityService.Host.Controllers.HomeController (IdentityService.Host).
+2020-06-25 15:21:11.811 +03:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-06-25 15:21:11.816 +03:00 [INF] Executed action IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host) in 21.2944ms
+2020-06-25 15:21:11.817 +03:00 [INF] Executed endpoint 'IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)'
+2020-06-25 15:21:12.767 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:12.767 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:12.787 +03:00 [INF] Request finished in 4797.1798ms 302 
+2020-06-25 15:21:12.800 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger  
+2020-06-25 15:21:12.802 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:12.805 +03:00 [INF] Request finished in 4.5628ms 301 
+2020-06-25 15:21:12.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/index.html  
+2020-06-25 15:21:12.810 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:12.833 +03:00 [INF] Request finished in 24.9353ms 200 text/html;charset=utf-8
+2020-06-25 15:21:12.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui.css  
+2020-06-25 15:21:12.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js  
+2020-06-25 15:21:12.851 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js  
+2020-06-25 15:21:12.851 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:12.851 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:12.851 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:12.879 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-25 15:21:12.879 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-25 15:21:12.879 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-25 15:21:12.879 +03:00 [INF] Request finished in 29.78ms 200 application/javascript
+2020-06-25 15:21:12.879 +03:00 [INF] Request finished in 28.3246ms 200 application/javascript
+2020-06-25 15:21:12.879 +03:00 [INF] Request finished in 30.1252ms 200 text/css
+2020-06-25 15:21:12.978 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 15:21:12.978 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:13.386 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:13.386 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:13.387 +03:00 [INF] Request finished in 408.4526ms 404 
+2020-06-25 15:21:13.389 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-bundle.js.map  
+2020-06-25 15:21:13.391 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:13.795 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:13.795 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:13.796 +03:00 [INF] Request finished in 406.1233ms 404 
+2020-06-25 15:21:13.888 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 15:21:13.888 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:14.337 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:14.337 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:14.338 +03:00 [INF] Request finished in 450.2627ms 404 
+2020-06-25 15:21:14.341 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:63568/swagger/swagger-ui-standalone-preset.js.map  
+2020-06-25 15:21:14.343 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:14.773 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:14.773 +03:00 [DBG] Added 0 entity changes to the current audit log
+2020-06-25 15:21:14.774 +03:00 [INF] Request finished in 432.7718ms 404 
+2020-06-25 15:21:14.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/v1/swagger.json  
+2020-06-25 15:21:14.831 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-25 15:21:14.998 +03:00 [INF] Request finished in 167.7953ms 200 application/json;charset=utf-8

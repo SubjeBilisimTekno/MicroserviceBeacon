@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uw01EBkwNJ3lNDqCDIQSlbuVXOeBKJd9z6+0R+XFkhgkDLAh+pDOy8y1WSraoJ33CndoVFSAhAS8lmwBHeRvng==",
+  "dgSpecHash": "QHGNDzqQkgil3GsopfIcCAgZqAqP5N9kfrpd1UDvaBZu0cxdzS0uMsx//xGanZdQapzq7zCgDGvslIINB6e4fQ==",
   "success": true,
   "projectFilePath": "D:\\subject\\MicroserviceBeacon\\microservices\\IdentityService.Host\\IdentityService.Host.csproj",
   "expectedPackageFiles": [
@@ -84,6 +84,7 @@
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\amayali\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",

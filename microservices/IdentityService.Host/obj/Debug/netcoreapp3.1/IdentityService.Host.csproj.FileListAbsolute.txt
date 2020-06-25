@@ -2514,9 +2514,6 @@ D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netco
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.dll.config
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.AssemblyInfoInputs.cache
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.AssemblyInfo.cs
-D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.csproj.CoreCompileInputs.cache
-D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.MvcApplicationPartsAssemblyInfo.cs
-D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.MvcApplicationPartsAssemblyInfo.cache
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.RazorTargetAssemblyInfo.cache
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.csproj.CopyComplete
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\staticwebassets\IdentityService.Host.StaticWebAssets.Manifest.cache
@@ -2524,3 +2521,6 @@ D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netco
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.dll
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.pdb
 D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.genruntimeconfig.cache
+D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.csproj.CoreCompileInputs.cache
+D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.MvcApplicationPartsAssemblyInfo.cs
+D:\subject\MicroserviceBeacon\microservices\IdentityService.Host\obj\Debug\netcoreapp3.1\IdentityService.Host.MvcApplicationPartsAssemblyInfo.cache
