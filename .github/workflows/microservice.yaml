@@ -87,8 +87,8 @@ jobs:
         password: ${{ secrets.REGISTRY_PASSWORD_SUBJE }}
     # Docker build and push to a Azure Container registry (ACR)
     - run: |
-       docker build . -t subjedotnet.azurecr.io/k8sdemo:${{ github.run_id }}
-       docker push subjedotnet.azurecr.io/k8sdemo:${{ github.run_id }}
+       docker build . -t subjedotnet.azurecr.io/dotnetdemo:${{ github.run_id }}
+       docker push subjedotnet.azurecr.io/dotnetdemo:${{ github.run_id }}
     # Set the target AKS cluster.
     - name: Slack Notification for Build
       uses: bryan-nice/slack-notification@master
