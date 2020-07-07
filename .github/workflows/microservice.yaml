@@ -132,7 +132,7 @@ jobs:
            k8s/sqlserver-service.yaml
            k8s/sqlserver-deployment.yaml
         images: |
-          subjerepo.azurecr.io/dotnetdemo:${{ github.run_id }} 
+          subjedotnet.azurecr.io/dotnetdemo:${{ github.run_id }} 
         imagepullsecrets: |
           acr-secret
           namespace: dotnetappdemo
@@ -223,7 +223,7 @@ jobs:
            k8s/sqlserver-service.yaml
            k8s/sqlserver-deployment.yaml
         images: |
-          subjerepo.azurecr.io/dotnetdemo:${{ github.run_id }} 
+          subjedotnet.azurecr.io/dotnetdemo:${{ github.run_id }} 
         imagepullsecrets: |
           acr-secret
           namespace: dotnetappdemo    
