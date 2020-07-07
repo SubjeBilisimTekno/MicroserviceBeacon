@@ -69,7 +69,7 @@ jobs:
       with:
         command: monitor
         args: --severity-threshold=high
-              --MicroserviceDemo.sln
+              --file=MicroserviceDemo.sln
     - name: Slack Notification for Snyk
       if: steps.unitslack.outputs.JOB_STATUS_UNIT != 'failed' && failure()
       uses: bryan-nice/slack-notification@master
